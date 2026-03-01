@@ -1,0 +1,236 @@
+{
+  "brand": {
+    "name": "Viatrexx US Bio Inc.",
+    "tagline": "Integrative Wellness Solutions",
+    "region": "USA/International",
+    "founded": 1999,
+    "website": "https://www.viatrexx.com",
+    "meaning": "Via the Matrix - optimal health through the body's interconnected systems"
+  },
+  "colors": {
+    "primary": {
+      "blue": "#0056b3",
+      "blueDark": "#004494",
+      "green": "#37ca37",
+      "secondary": "#188bf6",
+      "linkColor": "#188bf6"
+    },
+    "gradientPalette": {
+      "gradient1": "#3B82F6",
+      "gradient2": "#556270",
+      "gradient3": "#4ECDC4",
+      "gradient4": "#22D3EE",
+      "gradient5": "#8B5CF6",
+      "gradient6": "#0D47A1",
+      "usage": "Animated gradient for headers, banners, footers, dividers"
+    },
+    "navigationAccents": {
+      "blue": "#3B82F6",
+      "red": "#EF4444",
+      "amber": "#F59E0B",
+      "emerald": "#10B981",
+      "violet": "#8B5CF6",
+      "orange": "#F97316",
+      "usage": "Colorful hover states for navigation items"
+    },
+    "extended": {
+      "red": "#e93d3d",
+      "orange": "#f6ad55",
+      "yellow": "#faf089",
+      "green": "#9ae6b4",
+      "teal": "#81e6d9",
+      "malibu": "#63b3ed",
+      "indigo": "#757BBD",
+      "purple": "#d6bcfa",
+      "pink": "#fbb6ce"
+    },
+    "neutrals": {
+      "darkText": "#2c3e50",
+      "gray": "#cbd5e0",
+      "lightGray": "#f8f9fa",
+      "white": "#ffffff",
+      "black": "#000000",
+      "overlay": "rgba(0, 0, 0, 0.5)"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": {
+        "family": "Montserrat",
+        "fallback": "sans-serif",
+        "googleFonts": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap",
+        "usage": "Headlines, titles, navigation"
+      },
+      "body": {
+        "family": "Inter",
+        "fallback": "sans-serif",
+        "googleFonts": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+        "usage": "UI text, buttons, labels"
+      },
+      "content": {
+        "family": "Lato",
+        "fallback": "sans-serif",
+        "googleFonts": "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",
+        "usage": "Long-form content, paragraphs"
+      }
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    }
+  },
+  "spacing": {
+    "xs": "0.25rem",
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "3rem",
+    "3xl": "4rem",
+    "4xl": "6rem"
+  },
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 3px rgba(0,0,0,0.05)",
+    "md": "0 4px 6px -1px rgba(0,0,0,0.1)",
+    "lg": "0 10px 15px -3px rgba(0,0,0,0.1)",
+    "xl": "0 20px 25px -5px rgba(0,0,0,0.1)",
+    "inner10": "inset 0 1px 5px rgba(0,0,0,0.1)",
+    "inner30": "inset 0 2px 5px 2px rgba(0,0,0,0.3)"
+  },
+  "transitions": {
+    "fast": "0.15s ease",
+    "normal": "0.3s ease",
+    "slow": "0.4s ease"
+  },
+  "gradients": {
+    "animated": {
+      "css": "linear-gradient(-45deg, #3B82F6, #556270, #4ECDC4, #22D3EE, #8B5CF6, #0D47A1)",
+      "backgroundSize": "400% 400%",
+      "animation": "gradient 15s ease infinite",
+      "usage": "Headers, top banner, footer, dividers, rainbow buttons"
+    },
+    "blue": {
+      "css": "linear-gradient(135deg, #0056b3 0%, #3B82F6 100%)"
+    },
+    "teal": {
+      "css": "linear-gradient(90deg, #4ECDC4, #22D3EE)"
+    },
+    "violet": {
+      "css": "linear-gradient(135deg, #8B5CF6 0%, #0D47A1 100%)"
+    },
+    "hexBackground": {
+      "css": "linear-gradient(135deg, #fbfbfb 0%, #f5f9f9 100%)",
+      "overlay": "radial-gradient(circle at 30% 70%, rgba(0,86,179,0.05) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(0,68,148,0.05) 0%, transparent 50%)"
+    }
+  },
+  "animations": {
+    "gradient": {
+      "keyframes": "0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; }",
+      "duration": "15s",
+      "timing": "ease",
+      "iteration": "infinite"
+    },
+    "spin": {
+      "keyframes": "0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); }",
+      "duration": "1s",
+      "timing": "linear",
+      "iteration": "infinite"
+    },
+    "bounce": {
+      "keyframes": "0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); }",
+      "duration": "1.5s",
+      "timing": "ease-in",
+      "iteration": "infinite"
+    },
+    "rocking": {
+      "keyframes": "0%,100% { transform: rotate(0deg); } 25% { transform: rotate(2deg); } 75% { transform: rotate(-2deg); }",
+      "duration": "2s",
+      "timing": "ease-out",
+      "iteration": "infinite"
+    },
+    "pulseGlow": {
+      "keyframes": "0%,100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); } 50% { box-shadow: 0 0 10px 3px rgba(255,255,255,0.5); }",
+      "duration": "2s",
+      "timing": "ease-in-out",
+      "iteration": "infinite"
+    }
+  },
+  "components": {
+    "topBanner": {
+      "background": "animated gradient",
+      "color": "#ffffff",
+      "padding": "0.5rem 1rem",
+      "fontSize": "0.875rem"
+    },
+    "practitionerRegBtn": {
+      "background": "rgba(255,255,255,0.9)",
+      "color": "#0056b3",
+      "borderRadius": "20px",
+      "fontWeight": 600
+    },
+    "button": {
+      "primary": {
+        "background": "#0056b3",
+        "color": "#ffffff",
+        "hoverBackground": "#004494",
+        "borderRadius": "9999px",
+        "fontWeight": 600,
+        "padding": "10px 24px"
+      },
+      "rainbow": {
+        "background": "animated gradient",
+        "color": "#ffffff",
+        "borderRadius": "9999px"
+      }
+    },
+    "input": {
+      "border": "1px solid #d1d5db",
+      "borderRadius": "8px",
+      "focusBorder": "#0056b3",
+      "focusShadow": "0 0 0 3px rgba(0,86,179,0.2)"
+    },
+    "card": {
+      "background": "#ffffff",
+      "borderRadius": "12px",
+      "shadow": "0 4px 6px -1px rgba(0,0,0,0.1)",
+      "hoverTransform": "translateY(-8px)"
+    },
+    "navigation": {
+      "hoverColors": ["#3B82F6", "#EF4444", "#F59E0B", "#10B981", "#8B5CF6", "#F97316"],
+      "borderRadius": "8px"
+    },
+    "modal": {
+      "background": "#ffffff",
+      "borderRadius": "12px",
+      "shadow": "0 10px 30px rgba(0,0,0,0.2)",
+      "backdropFilter": "blur(5px)"
+    },
+    "footer": {
+      "background": "animated gradient",
+      "color": "#ffffff",
+      "socialIconBackground": "rgba(255,255,255,0.15)"
+    }
+  },
+  "assets": {
+    "logo": {
+      "url": "https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68055cff29d62943f33635ea.webp",
+      "clearSpace": "Height of the 'V' in Viatrexx"
+    },
+    "flags": {
+      "usa": "https://flagcdn.com/w40/us.png",
+      "mexico": "https://flagcdn.com/w40/mx.png",
+      "canada": "https://flagcdn.com/w40/ca.png"
+    }
+  }
+}

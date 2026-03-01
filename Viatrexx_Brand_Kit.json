@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "name": "Viatrexx Brand Kit",
+    "version": "1.0",
+    "generated": "2026-02-25T00:45:28.709Z"
+  },
+  "typography": {
+    "headings": "Montserrat",
+    "ui": "Inter",
+    "body": "Lato"
+  },
+  "colors": [
+    {
+      "title": "Primary Brand Colors",
+      "colors": [
+        {
+          "name": "Primary Blue",
+          "hex": "#0056b3",
+          "variable": "--vx-primary-blue",
+          "textColor": "white"
+        },
+        {
+          "name": "Dark Blue",
+          "hex": "#004494",
+          "variable": "--vx-primary-dark-blue",
+          "textColor": "white"
+        },
+        {
+          "name": "Secondary",
+          "hex": "#188bf6",
+          "variable": "--vx-secondary",
+          "textColor": "white"
+        },
+        {
+          "name": "Green",
+          "hex": "#37ca37",
+          "variable": "--vx-primary",
+          "textColor": "black"
+        }
+      ]
+    },
+    {
+      "title": "Animated Gradient Palette",
+      "colors": [
+        {
+          "name": "Gradient 1",
+          "hex": "#3B82F6",
+          "variable": "--vx-gradient-1",
+          "textColor": "white"
+        },
+        {
+          "name": "Slate",
+          "hex": "#556270",
+          "variable": "--vx-gradient-2",
+          "textColor": "white"
+        },
+        {
+          "name": "Teal",
+          "hex": "#4ECDC4",
+          "variable": "--vx-gradient-3",
+          "textColor": "black"
+        },
+        {
+          "name": "Cyan",
+          "hex": "#22D3EE",
+          "variable": "--vx-gradient-4",
+          "textColor": "black"
+        },
+        {
+          "name": "Violet",
+          "hex": "#8B5CF6",
+          "variable": "--vx-gradient-5",
+          "textColor": "white"
+        },
+        {
+          "name": "Navy",
+          "hex": "#0D47A1",
+          "variable": "--vx-gradient-6",
+          "textColor": "white"
+        }
+      ]
+    },
+    {
+      "title": "Navigation Accents",
+      "colors": [
+        {
+          "name": "Nav Blue",
+          "hex": "#3B82F6",
+          "variable": "--vx-nav-blue",
+          "textColor": "white"
+        },
+        {
+          "name": "Nav Red",
+          "hex": "#EF4444",
+          "variable": "--vx-nav-red",
+          "textColor": "white"
+        },
+        {
+          "name": "Nav Amber",
+          "hex": "#F59E0B",
+          "variable": "--vx-nav-amber",
+          "textColor": "black"
+        },
+        {
+          "name": "Nav Emerald",
+          "hex": "#10B981",
+          "variable": "--vx-nav-emerald",
+          "textColor": "white"
+        },
+        {
+          "name": "Nav Violet",
+          "hex": "#8B5CF6",
+          "variable": "--vx-nav-violet",
+          "textColor": "white"
+        },
+        {
+          "name": "Nav Orange",
+          "hex": "#F97316",
+          "variable": "--vx-nav-orange",
+          "textColor": "white"
+        }
+      ]
+    },
+    {
+      "title": "Neutrals",
+      "colors": [
+        {
+          "name": "Dark Text",
+          "hex": "#2c3e50",
+          "variable": "--vx-dark-text",
+          "textColor": "white"
+        },
+        {
+          "name": "Gray",
+          "hex": "#cbd5e0",
+          "variable": "--vx-gray",
+          "textColor": "black"
+        },
+        {
+          "name": "Light Gray",
+          "hex": "#f8f9fa",
+          "variable": "--vx-light-gray",
+          "textColor": "black"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "b1",
+      "name": "Viatrexx Logo",
+      "category": "logo",
+      "url": "https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68055cff29d62943f33635ea.webp"
+    },
+    {
+      "id": "flag",
+      "name": "Flag Icon",
+      "category": "logo",
+      "url": "https://stcdn.leadconnectorhq.com/intl-tel-input/17.0.12/img/flags.png"
+    },
+    {
+      "id": "t1",
+      "name": "Team Partner 1",
+      "category": "team",
+      "url": "https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68055d798970b0f7c1f57741.webp"
+    },
+    {
+      "id": "t2",
+      "name": "Team Partner 2",
+      "category": "team",
+      "url": "https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/a2014e37-66cd-42ce-9283-73ad56482d83.png"
+    },
+    {
+      "id": "t3",
+      "name": "Team Partner 3",
+      "category": "team",
+      "url": "https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/ddff0d51-276c-44af-bad4-8ff7ab0c975a.jpeg"
+    },
+    {
+      "id": "t4",
+      "name": "Team Partner 4",
+      "category": "team",
+      "url": "https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/51080143-e91c-4413-ab4b-b0f87498248c.jpeg"
+    },
+    {
+      "id": "t5",
+      "name": "Team Partner 5",
+      "category": "team",
+      "url": "https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/d873e8d5-f489-4728-9a71-c0aa8bc7fb0d.jpeg"
+    },
+    {
+      "id": "s1",
+      "name": "Service 1",
+      "category": "service",
+      "url": "https://storage.googleapis.com/msgsndr/spID0j9wpkhDzhd0BacX/media/68ade51922ca865799d74947.webp"
+    },
+    {
+      "id": "s2",
+      "name": "Service 2",
+      "category": "service",
+      "url": "https://storage.googleapis.com/msgsndr/spID0j9wpkhDzhd0BacX/media/68adf8e7c8bb2195cbc9858f.png"
+    },
+    {
+      "id": "s3",
+      "name": "Service 3",
+      "category": "service",
+      "url": "https://storage.googleapis.com/msgsndr/spID0j9wpkhDzhd0BacX/media/68adf95406b2d9c1dd736e25.webp"
+    },
+    {
+      "id": "s4",
+      "name": "Service 4",
+      "category": "service",
+      "url": "https://storage.googleapis.com/msgsndr/spID0j9wpkhDzhd0BacX/media/68adf99fd09ce315c8474213.webp"
+    },
+    {
+      "id": "s5",
+      "name": "Service 5",
+      "category": "service",
+      "url": "https://www.viatrexx.com/wp-content/uploads/2023/05/3092349_l_normal_none-scaled.jpg.webp"
+    },
+    {
+      "id": "s6",
+      "name": "Service 6",
+      "category": "service",
+      "url": "https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68055d668970b01b8bf5773c.webp"
+    },
+    {
+      "id": "p1",
+      "name": "Product 1",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a38600bc585aa6832be.webp"
+    },
+    {
+      "id": "p2",
+      "name": "Product 2",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/6933c2c981eaa1fad7d20a02.jpg"
+    },
+    {
+      "id": "p3",
+      "name": "Product 3",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a38ec5b3dabcfd12984.webp"
+    },
+    {
+      "id": "p4",
+      "name": "Product 4",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a38ec5b3d15e4d1297e.webp"
+    },
+    {
+      "id": "p5",
+      "name": "Product 5",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a38ec5b3d24eed12980.webp"
+    },
+    {
+      "id": "p6",
+      "name": "Product 6",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a38600bc51c106832bf.webp"
+    },
+    {
+      "id": "p7",
+      "name": "Product 7",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a384f8b902370d6422f.webp"
+    },
+    {
+      "id": "p8",
+      "name": "Product 8",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a384f8b90f010d64231.webp"
+    },
+    {
+      "id": "p9",
+      "name": "Product 9",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a3990250329a17b0d6b.webp"
+    },
+    {
+      "id": "p10",
+      "name": "Product 10",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a38600bc503776832bd.webp"
+    },
+    {
+      "id": "p11",
+      "name": "Product 11",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a384f8b9001cbd64232.webp"
+    },
+    {
+      "id": "p12",
+      "name": "Product 12",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a384f8b901a2fd64230.webp"
+    },
+    {
+      "id": "p13",
+      "name": "Product 13",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a38ec5b3d6aa7d12981.webp"
+    },
+    {
+      "id": "p14",
+      "name": "Product 14",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a38ec5b3d0af8d12982.webp"
+    },
+    {
+      "id": "p15",
+      "name": "Product 15",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68b50282554d73775778513d.png"
+    },
+    {
+      "id": "p16",
+      "name": "Product 16",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a39902503405a7b0d68.webp"
+    },
+    {
+      "id": "p17",
+      "name": "Product 17",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a399025031cfa7b0d69.webp"
+    },
+    {
+      "id": "p18",
+      "name": "Product 18",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a384f8b900d98d6422e.webp"
+    },
+    {
+      "id": "p19",
+      "name": "Product 19",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a399025038bd67b0d6d.webp"
+    },
+    {
+      "id": "p20",
+      "name": "Product 20",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68b36b52058cde050437343e.webp"
+    },
+    {
+      "id": "p21",
+      "name": "Product 21",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a55902503637c7b1948.webp"
+    },
+    {
+      "id": "p22",
+      "name": "Product 22",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68b36b6d8ec942100520ea72.webp"
+    },
+    {
+      "id": "p23",
+      "name": "Product 23",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68919a49600bc5fdd16838bb.webp"
+    },
+    {
+      "id": "p24",
+      "name": "Product 24",
+      "category": "product",
+      "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_800/u_https://storage.googleapis.com/msgsndr/Wv6kWdgCt9mf9ZTVwPw4/media/68b36b52ae86c52067ea66ec.webp"
+    }
+  ],
+  "components": {
+    "buttons": {
+      "variants": [
+        "Primary Blue",
+        "Secondary",
+        "Green Action",
+        "Outline",
+        "Rainbow"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "states": [
+        "Normal",
+        "Hover",
+        "Disabled"
+      ]
+    },
+    "forms": {
+      "inputs": [
+        "Text",
+        "Email",
+        "Disabled"
+      ],
+      "textarea": true,
+      "validation": [
+        "Error State"
+      ]
+    },
+    "selection": {
+      "types": [
+        "Checkboxes",
+        "Radio Buttons",
+        "Toggles"
+      ]
+    },
+    "feedback": {
+      "alerts": [
+        "Information",
+        "Success",
+        "Warning"
+      ],
+      "badges": [
+        "Primary",
+        "Neutral",
+        "Success",
+        "Error",
+        "Warning",
+        "Outline"
+      ],
+      "statusIndicators": [
+        "Active",
+        "Offline",
+        "Processing"
+      ]
+    },
+    "cards": {
+      "types": [
+        "Content Card",
+        "Feature Card",
+        "Banner Card"
+      ]
+    }
+  }
+}

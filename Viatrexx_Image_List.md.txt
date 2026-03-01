@@ -1,0 +1,98 @@
+﻿Viatrexx Image List
+This document contains a comprehensive list of all image links found across the provided Viatrexx website files, categorized by their usage.
+Brand Identity
+Image Name
+	Preview / Link
+	Viatrexx Logo
+	Link
+	Flag Icons (CSS Background)
+	Link
+	Team & Partners
+Image Name
+	Preview / Link
+	Viatrexx Team (Group Photo)
+	Link
+	Healthcare Practitioner (Hero/Partner Image)
+	Link
+	Dr. Jennifer Miller
+	Link
+	Dr. Mark Thompson
+	Link
+	Dr. Sarah Chen
+	Link
+	Services & Facilities
+Image Name
+	Preview / Link
+	Manufacturing Facility
+	Link
+	Private Labeling Services
+	Link
+	Product Development
+	Link
+	Practitioner Education
+	Link
+	Lab Equipment / Strategic Vision
+	Link
+	Clinical Research (Scientist with tablet)
+	Link
+	Educational Resources
+Image Name
+	Preview / Link
+	Understanding Four Pillars (News/Pills)
+	Link
+	Science Behind EZ Heartbeat (Microscope)
+	Link
+	Practitioner's Guide (Notebook)
+	Link
+	Product Catalog
+Note: High-resolution images fetched from LeadConnector CDN.
+Product Name
+	Image Link
+	AAP-AA-1
+	Link
+	AAP-AA-2
+	Link
+	AAP-AM-1
+	Link
+	AAP-Essentials
+	Link
+	AAP-GF-1
+	Link
+	AAP-IM-1
+	Link
+	AAP-IM-2
+	Link
+	AAP-MA-1
+	Link
+	AAP-N-1
+	Link
+	AAP-N-2
+	Link
+	AAP-N-3
+	Link
+	AAP-N-4
+	Link
+	AAP-N-5
+	Link
+	AAP-QA-1
+	Link
+	AAP-S-1
+	Link
+	AAP-WT-2
+	Link
+	AAP-WT-3
+	Link
+	AcneXX
+	Link
+	AdiposeXX
+	Link
+	AmoebeXX
+	Link
+	ArthreXX
+	Link
+	ArticuleXX
+	Link
+	BactereXX
+	Link
+	BoweleXX
+	Link

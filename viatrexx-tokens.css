@@ -1,0 +1,154 @@
+/**
+ * VIATREXX BRAND DESIGN TOKENS (USA/International Edition)
+ * Website: https://www.viatrexx.com
+ */
+
+:root {
+  /* PRIMARY BRAND COLORS - BLUE */
+  --vx-primary: #37ca37;
+  --vx-secondary: #188bf6;
+  --vx-primary-blue: #0056b3;
+  --vx-primary-dark-blue: #004494;
+  --vx-link-color: #188bf6;
+
+  /* ANIMATED GRADIENT PALETTE (Blue/Teal Theme) */
+  --vx-gradient-1: #3B82F6;
+  --vx-gradient-2: #556270;
+  --vx-gradient-3: #4ECDC4;
+  --vx-gradient-4: #22D3EE;
+  --vx-gradient-5: #8B5CF6;
+  --vx-gradient-6: #0D47A1;
+
+  /* NAVIGATION ACCENT COLORS */
+  --vx-nav-blue: #3B82F6;
+  --vx-nav-red: #EF4444;
+  --vx-nav-amber: #F59E0B;
+  --vx-nav-emerald: #10B981;
+  --vx-nav-violet: #8B5CF6;
+  --vx-nav-orange: #F97316;
+
+  /* EXTENDED PALETTE */
+  --vx-white: #ffffff;
+  --vx-gray: #cbd5e0;
+  --vx-black: #000000;
+  --vx-red: #e93d3d;
+  --vx-orange: #f6ad55;
+  --vx-yellow: #faf089;
+  --vx-green: #9ae6b4;
+  --vx-teal: #81e6d9;
+  --vx-malibu: #63b3ed;
+  --vx-indigo: #757BBD;
+  --vx-purple: #d6bcfa;
+  --vx-pink: #fbb6ce;
+
+  /* NEUTRALS */
+  --vx-dark-text: #2c3e50;
+  --vx-light-gray: #f8f9fa;
+  --vx-overlay: rgba(0, 0, 0, 0.5);
+
+  /* TYPOGRAPHY */
+  --vx-font-heading: 'Montserrat', sans-serif;
+  --vx-font-body: 'Inter', sans-serif;
+  --vx-font-content: 'Lato', sans-serif;
+
+  /* SPACING */
+  --vx-space-xs: 0.25rem;
+  --vx-space-sm: 0.5rem;
+  --vx-space-md: 1rem;
+  --vx-space-lg: 1.5rem;
+  --vx-space-xl: 2rem;
+  --vx-space-2xl: 3rem;
+
+  /* BORDER RADIUS */
+  --vx-radius-sm: 4px;
+  --vx-radius-md: 8px;
+  --vx-radius-lg: 12px;
+  --vx-radius-full: 9999px;
+
+  /* SHADOWS */
+  --vx-shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+  --vx-shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --vx-shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+  --vx-shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1);
+
+  /* TRANSITIONS */
+  --vx-transition: 0.3s ease;
+
+  /* GRADIENTS */
+  --vx-gradient-animated: linear-gradient(-45deg, #3B82F6, #556270, #4ECDC4, #22D3EE, #8B5CF6, #0D47A1);
+}
+
+/* ANIMATIONS */
+@keyframes vx-gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes vx-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes vx-pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+  50% { box-shadow: 0 0 10px 3px rgba(255,255,255,0.5); }
+}
+
+@keyframes vx-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes vx-rocking {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  75% { transform: rotate(-2deg); }
+}
+
+/* UTILITY CLASSES */
+.vx-animated-gradient {
+  background: var(--vx-gradient-animated);
+  background-size: 400% 400%;
+  animation: vx-gradient 15s ease infinite;
+}
+
+.vx-gradient-text {
+  background: var(--vx-gradient-animated);
+  background-size: 400% 400%;
+  animation: vx-gradient 15s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.vx-btn-primary {
+  background-color: var(--vx-primary-blue);
+  border-color: var(--vx-primary-blue);
+  color: var(--vx-white);
+  padding: 10px 24px;
+  border-radius: var(--vx-radius-full);
+  font-weight: 600;
+  transition: all var(--vx-transition);
+}
+
+.vx-btn-primary:hover {
+  background-color: var(--vx-primary-dark-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.vx-input:focus {
+  outline: none;
+  border-color: var(--vx-primary-blue);
+  box-shadow: 0 0 0 3px rgba(0,86,179,0.2);
+}
+
+.vx-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: vx-spin 1s linear infinite;
+}
