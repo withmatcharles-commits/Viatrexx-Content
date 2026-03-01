@@ -340,7 +340,7 @@ post_processing:
     tool: "Remotion MCP + Voice AI API"
     duration_seconds: 10        # 8–15 seconds
     ending_template: ""         # "general" / "b2b_practitioner" / "b2c_seeker" / "condition_specific"
-    # See CONTENT_CREATION_FLOW.md Section 4.3.4 for ending script templates
+    # See ../../docs/CONTENT_CREATION_FLOW.md Section 4.3.4 for ending script templates
     voiceover_script: ""        # Custom script, or leave blank to use template
     cta_text: ""                # On-screen CTA text
     cta_url: ""                 # URL to display
@@ -434,7 +434,7 @@ post_processing:
     tool: "Voice AI API + FFmpeg / Remotion MCP"
     duration_seconds: 12        # 8–15 seconds
     ending_template: ""         # "general" / "condition_specific"
-    # See CONTENT_CREATION_FLOW.md Section 4.3.4 for ending script templates
+    # See ../../docs/CONTENT_CREATION_FLOW.md Section 4.3.4 for ending script templates
     voiceover_script: ""        # Custom script, or leave blank to use template
     music_bed: ""               # Optional subtle music sting for sign-off
     product_reference: ""       # Product/protocol to mention in CTA
