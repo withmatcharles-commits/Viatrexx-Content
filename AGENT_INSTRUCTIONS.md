@@ -119,7 +119,7 @@ ALL NotebookLM outputs require post-processing before publishing. Never publish 
 | Video Explainer | Watermark (bottom-right) + NLM branded ending | 1) Trim ending (Remotion/FFmpeg) → 2) Remove watermark (video inpainting API or Remotion overlay) → 3) Voice AI ending VO → 4) Remotion compose branded ending → 5) Stitch final |
 | Audio Explainer | NLM branded ending | 1) Trim ending (FFmpeg) → 2) Voice AI ending VO → 3) Stitch branded ending (FFmpeg/Remotion) |
 
-See `CONTENT_CREATION_FLOW.md` Section 4.3 for full post-processing pipelines, ending script templates, and Voice AI configuration.
+See `docs/CONTENT_CREATION_FLOW.md` Section 4.3 for full post-processing pipelines, ending script templates, and Voice AI configuration.
 
 ### Step 4: Adapt for Platforms
 
@@ -263,7 +263,7 @@ Choose ending template based on content context:
 | `b2c_seeker` | Content targeting patients/seekers | 8–10s |
 | `condition_specific` | Content focused on specific condition/product | 8–10s |
 
-Full ending scripts are in `CONTENT_CREATION_FLOW.md` Section 4.3.4.
+Full ending scripts are in `docs/CONTENT_CREATION_FLOW.md` Section 4.3.4.
 
 ### Voice AI Configuration
 

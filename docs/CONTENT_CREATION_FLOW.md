@@ -369,7 +369,7 @@ For generating branded ending voiceovers:
 
 ### Step 2: Create Master Content Brief
 
-Create **one reusable brief per topic + content type**. This is the core asset. Use the Brief Templates in `/templates/briefs/`.
+Create **one reusable brief per topic + content type**. This is the core asset. Use the Brief Templates in `..../templates/briefs/`.
 
 Every brief must include:
 - Topic ID & Pillar reference
@@ -403,7 +403,7 @@ Master Brief
 
 ### Step 4: Platform-Specific Adaptation
 
-Adapt the Master Brief and generated assets for each target platform. Use Platform Templates in `/templates/platforms/`.
+Adapt the Master Brief and generated assets for each target platform. Use Platform Templates in `..../templates/platforms/`.
 
 | Platform | Key Adaptations |
 |----------|----------------|
@@ -457,7 +457,7 @@ Adapt the Master Brief and generated assets for each target platform. Use Platfo
 ┌─────────────────────────────────────────────────────────┐
 │              MASTER CONTENT BRIEF                         │
 │  (One brief per Topic × Content Type)                    │
-│  Brief Templates: /templates/briefs/                     │
+│  Brief Templates: ..../templates/briefs/                     │
 └──────────┬───────────┬───────────┬──────────────────────┘
            │           │           │
            ▼           ▼           ▼
@@ -476,7 +476,7 @@ Adapt the Master Brief and generated assets for each target platform. Use Platfo
                       ▼
 ┌─────────────────────────────────────────────────────────┐
 │           PLATFORM ADAPTATION LAYER                       │
-│  Platform Templates: /templates/platforms/                │
+│  Platform Templates: ..../templates/platforms/                │
 │  FB | IG | LI | Pin | YT | Website | Email              │
 └──────────────────────┬──────────────────────────────────┘
                        │
